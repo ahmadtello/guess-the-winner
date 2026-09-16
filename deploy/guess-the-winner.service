@@ -1,0 +1,31 @@
+[Unit]
+Description=Guess the Winner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=guess-the-winner
+Group=guess-the-winner
+WorkingDirectory=/opt/guess-the-winner
+EnvironmentFile=/etc/guess-the-winner.env
+ExecStart=/usr/bin/node server/awards-server.js
+Restart=on-failure
+RestartSec=2
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+ReadWritePaths=/var/lib/guess-the-winner
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+LimitNOFILE=65536
+TasksMax=2048
+MemoryMax=1G
+
+[Install]
+WantedBy=multi-user.target

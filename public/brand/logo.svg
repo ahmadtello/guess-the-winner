@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Guess the Winner logo">
+  <rect x="4" y="4" width="112" height="112" rx="26" fill="#143522"/>
+  <path d="M60 24 L88 72 L60 96 L32 72 Z" fill="#9e8754"/>
+  <circle cx="60" cy="58" r="14" fill="#143522"/>
+</svg>

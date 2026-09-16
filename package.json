@@ -1,0 +1,32 @@
+{
+  "name": "guess-the-winner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --config vite.awards.config.js --host 0.0.0.0",
+    "build": "vite build --config vite.awards.config.js",
+    "preview": "vite preview --config vite.awards.config.js --host 0.0.0.0",
+    "api": "node server/awards-server.js",
+    "test": "node --test tests/awards-model.test.mjs",
+    "test:load": "node tests/awards-load.mjs",
+    "test:open-burst": "node tests/awards-open-burst.mjs"
+  },
+  "dependencies": {
+    "@fluentui/react-icons": "^2.0.339",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "@zxing/library": "^0.23.0",
+    "pngjs": "^5.0.0",
+    "qrcode": "^1.5.4",
+    "vite": "^7.3.6"
+  }
+}

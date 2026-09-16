@@ -1,0 +1,37 @@
+/* Frames the guest screen (and the host's live preview) around the theme logo. */
+.aw-guest.aw-artwork{display:flex;flex-direction:column;min-height:calc(100svh - 34px)}
+.aw-artwork .aw-guest-brand{padding:0;border:0;background:#133320;display:block;flex-shrink:0}
+.aw-artwork .aw-guest-brand.aw-custom-brand{padding:26px 24px;background:var(--g-banner);text-align:center;border-bottom:1px solid var(--g-banner-border)}
+.aw-artwork .aw-join{padding:32px 24px 24px;flex:1}
+.aw-artwork .aw-join h1{font-size:32px;line-height:1.14;letter-spacing:-.025em;text-wrap:balance}
+.aw-artwork .aw-join>p{margin:16px 0 8px;line-height:1.6}
+.aw-artwork .aw-join form{gap:20px}
+.aw-artwork .aw-join label{line-height:1.5;font-size:13px}
+.aw-artwork .aw-join input{font-size:16px;min-height:52px!important;border-color:#bcc7be;border-radius:6px}
+.aw-artwork .aw-join form .aw-button{min-height:52px;font-size:15px!important;margin-top:4px;border-radius:6px}
+.aw-artwork .aw-join>small{font-size:12px;line-height:1.6;margin-top:20px}
+.aw-artwork .aw-guest-footer{margin-top:auto;padding:20px 0 0;border:0;flex-shrink:0;text-align:center}
+.aw-artwork .aw-guest-footer>p{margin:0;padding:0 24px 18px;font-size:11px;line-height:1.6;color:var(--g-muted)}
+.aw-artwork .aw-guest-footer>small{display:block;margin:0;padding:0 20px 14px;font-size:11px}
+.aw-artwork .aw-guest-score{padding:12px 24px;font-size:13px;line-height:1.5;gap:16px;flex-wrap:wrap;background:var(--g-card);color:var(--g-primary);border-bottom:1px solid #e3e8e1}
+.aw-artwork .aw-guest-score span:last-child{font-weight:700}
+.aw-artwork .aw-ballot{padding:24px;flex:1}
+.aw-artwork .aw-round-label{font-size:12px;line-height:1.5;margin-bottom:14px;padding-bottom:12px;border-bottom-color:#e3e8e1}
+.aw-artwork .aw-ballot h1{font-size:30px;line-height:1.15;margin:16px 0 10px;letter-spacing:-.025em}
+.aw-artwork .aw-ballot h2{font-size:19px;line-height:1.4;max-width:none;margin:0;text-wrap:balance}
+.aw-artwork .aw-ballot-instruction{font-size:14px;line-height:1.6;margin-bottom:20px}
+.aw-artwork .aw-nominees{gap:12px}
+.aw-artwork .aw-nominee{min-height:98px;gap:14px;padding:12px;border:1px solid #cdd6cb;border-radius:8px;background:#fff;box-shadow:none}
+.aw-artwork .aw-nominee-logo{width:82px;height:64px;flex-shrink:0;background:#fff}
+.aw-artwork .aw-nominee-label{font-size:14px;line-height:1.45;font-weight:600;color:var(--g-text)}
+.aw-artwork .aw-nominee:disabled{opacity:1}
+.aw-artwork .aw-nominee.selected{border:2px solid var(--g-primary);padding:11px;background:var(--g-selected)}
+.aw-artwork .aw-radio{width:22px;height:22px;flex-shrink:0}
+.aw-artwork .aw-auto-submit{font-size:13px;line-height:1.6;margin-top:20px;border-radius:6px}
+.aw-artwork .aw-round-separator{flex:1;min-height:380px;padding:48px 28px;gap:20px}
+.aw-artwork .aw-round-separator h1{font-size:34px;line-height:1.15;letter-spacing:-.025em}
+.aw-artwork .aw-round-separator p:last-child{margin-top:12px;font-size:14px;line-height:1.6;max-width:28ch;align-self:center}
+.aw-artwork .aw-game-end{flex:1;min-height:420px;padding:40px 28px}
+.aw-artwork.aw-embedded{min-height:700px}
+@media(min-width:701px){.aw-standalone>.aw-artwork{min-height:calc(100svh - 86px)}}
+@media(max-width:360px){.aw-artwork .aw-join,.aw-artwork .aw-ballot{padding-left:20px;padding-right:20px}.aw-artwork .aw-join h1{font-size:29px}.aw-artwork .aw-nominee{gap:10px}.aw-artwork .aw-nominee-logo{width:66px}.aw-artwork .aw-nominee-label{font-size:13px}}

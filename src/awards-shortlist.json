@@ -1,0 +1,339 @@
+{
+  "dataset": "sample-awards-shortlist-v1",
+  "categories": [
+    {
+      "id": "award-01",
+      "group": "Innovation Awards",
+      "name": "Innovation of the Year",
+      "nominees": [
+        {
+          "id": "northwind",
+          "name": "Northwind Facilities",
+          "logo": "/awards/nominees/northwind.svg"
+        },
+        {
+          "id": "blueharbor",
+          "name": "Blue Harbor Services",
+          "logo": "/awards/nominees/blueharbor.svg"
+        },
+        {
+          "id": "cedarline",
+          "name": "Cedarline Group",
+          "logo": "/awards/nominees/cedarline.svg"
+        },
+        {
+          "id": "summitfm",
+          "name": "Summit FM Partners",
+          "logo": "/awards/nominees/summitfm.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-02",
+      "group": "Innovation Awards",
+      "name": "Digital Transformation Excellence",
+      "nominees": [
+        {
+          "id": "brightpoint",
+          "name": "Brightpoint Services",
+          "logo": "/awards/nominees/brightpoint.svg"
+        },
+        {
+          "id": "westgate",
+          "name": "Westgate Solutions",
+          "logo": "/awards/nominees/westgate.svg"
+        },
+        {
+          "id": "atlasworks",
+          "name": "Atlas Works",
+          "logo": "/awards/nominees/atlasworks.svg"
+        },
+        {
+          "id": "harborline",
+          "name": "Harborline Group",
+          "logo": "/awards/nominees/harborline.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-03",
+      "group": "Innovation Awards",
+      "name": "Sustainability Innovation",
+      "nominees": [
+        {
+          "id": "greenfield",
+          "name": "Greenfield Services",
+          "logo": "/awards/nominees/greenfield.svg"
+        },
+        {
+          "id": "ridgeway",
+          "name": "Ridgeway Facilities",
+          "logo": "/awards/nominees/ridgeway.svg"
+        },
+        {
+          "id": "stonebridge",
+          "name": "Stonebridge Partners",
+          "logo": "/awards/nominees/stonebridge.svg"
+        },
+        {
+          "id": "pinecrest",
+          "name": "Pinecrest Services",
+          "logo": "/awards/nominees/pinecrest.svg"
+        },
+        {
+          "id": "northwind",
+          "name": "Northwind Facilities",
+          "logo": "/awards/nominees/northwind.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-04",
+      "group": "Innovation Awards",
+      "name": "Smart Building Technology",
+      "nominees": [
+        {
+          "id": "blueharbor",
+          "name": "Blue Harbor Services",
+          "logo": "/awards/nominees/blueharbor.svg"
+        },
+        {
+          "id": "summitfm",
+          "name": "Summit FM Partners",
+          "logo": "/awards/nominees/summitfm.svg"
+        },
+        {
+          "id": "atlasworks",
+          "name": "Atlas Works",
+          "logo": "/awards/nominees/atlasworks.svg"
+        },
+        {
+          "id": "westgate",
+          "name": "Westgate Solutions",
+          "logo": "/awards/nominees/westgate.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-05",
+      "group": "Service Excellence Awards",
+      "name": "Excellence in Customer Service",
+      "nominees": [
+        {
+          "id": "cedarline",
+          "name": "Cedarline Group",
+          "logo": "/awards/nominees/cedarline.svg"
+        },
+        {
+          "id": "brightpoint",
+          "name": "Brightpoint Services",
+          "logo": "/awards/nominees/brightpoint.svg"
+        },
+        {
+          "id": "harborline",
+          "name": "Harborline Group",
+          "logo": "/awards/nominees/harborline.svg"
+        },
+        {
+          "id": "greenfield",
+          "name": "Greenfield Services",
+          "logo": "/awards/nominees/greenfield.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-06",
+      "group": "Service Excellence Awards",
+      "name": "Workforce Development Award",
+      "nominees": [
+        {
+          "id": "ridgeway",
+          "name": "Ridgeway Facilities",
+          "logo": "/awards/nominees/ridgeway.svg"
+        },
+        {
+          "id": "stonebridge",
+          "name": "Stonebridge Partners",
+          "logo": "/awards/nominees/stonebridge.svg"
+        },
+        {
+          "id": "pinecrest",
+          "name": "Pinecrest Services",
+          "logo": "/awards/nominees/pinecrest.svg"
+        },
+        {
+          "id": "northwind",
+          "name": "Northwind Facilities",
+          "logo": "/awards/nominees/northwind.svg"
+        },
+        {
+          "id": "blueharbor",
+          "name": "Blue Harbor Services",
+          "logo": "/awards/nominees/blueharbor.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-07",
+      "group": "Service Excellence Awards",
+      "name": "Health & Safety Excellence",
+      "nominees": [
+        {
+          "id": "summitfm",
+          "name": "Summit FM Partners",
+          "logo": "/awards/nominees/summitfm.svg"
+        },
+        {
+          "id": "westgate",
+          "name": "Westgate Solutions",
+          "logo": "/awards/nominees/westgate.svg"
+        },
+        {
+          "id": "atlasworks",
+          "name": "Atlas Works",
+          "logo": "/awards/nominees/atlasworks.svg"
+        },
+        {
+          "id": "cedarline",
+          "name": "Cedarline Group",
+          "logo": "/awards/nominees/cedarline.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-08",
+      "group": "Service Excellence Awards",
+      "name": "Community Impact Award",
+      "nominees": [
+        {
+          "id": "brightpoint",
+          "name": "Brightpoint Services",
+          "logo": "/awards/nominees/brightpoint.svg"
+        },
+        {
+          "id": "harborline",
+          "name": "Harborline Group",
+          "logo": "/awards/nominees/harborline.svg"
+        },
+        {
+          "id": "greenfield",
+          "name": "Greenfield Services",
+          "logo": "/awards/nominees/greenfield.svg"
+        },
+        {
+          "id": "ridgeway",
+          "name": "Ridgeway Facilities",
+          "logo": "/awards/nominees/ridgeway.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-09",
+      "group": "Service Excellence Awards",
+      "name": "Operational Excellence",
+      "nominees": [
+        {
+          "id": "stonebridge",
+          "name": "Stonebridge Partners",
+          "logo": "/awards/nominees/stonebridge.svg"
+        },
+        {
+          "id": "pinecrest",
+          "name": "Pinecrest Services",
+          "logo": "/awards/nominees/pinecrest.svg"
+        },
+        {
+          "id": "northwind",
+          "name": "Northwind Facilities",
+          "logo": "/awards/nominees/northwind.svg"
+        },
+        {
+          "id": "summitfm",
+          "name": "Summit FM Partners",
+          "logo": "/awards/nominees/summitfm.svg"
+        },
+        {
+          "id": "blueharbor",
+          "name": "Blue Harbor Services",
+          "logo": "/awards/nominees/blueharbor.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-10",
+      "group": "Partnership Awards",
+      "name": "Best Client Partnership",
+      "nominees": [
+        {
+          "id": "cedarline",
+          "name": "Cedarline Group",
+          "logo": "/awards/nominees/cedarline.svg"
+        },
+        {
+          "id": "westgate",
+          "name": "Westgate Solutions",
+          "logo": "/awards/nominees/westgate.svg"
+        },
+        {
+          "id": "atlasworks",
+          "name": "Atlas Works",
+          "logo": "/awards/nominees/atlasworks.svg"
+        },
+        {
+          "id": "harborline",
+          "name": "Harborline Group",
+          "logo": "/awards/nominees/harborline.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-11",
+      "group": "Partnership Awards",
+      "name": "Supplier Collaboration Award",
+      "nominees": [
+        {
+          "id": "greenfield",
+          "name": "Greenfield Services",
+          "logo": "/awards/nominees/greenfield.svg"
+        },
+        {
+          "id": "ridgeway",
+          "name": "Ridgeway Facilities",
+          "logo": "/awards/nominees/ridgeway.svg"
+        },
+        {
+          "id": "stonebridge",
+          "name": "Stonebridge Partners",
+          "logo": "/awards/nominees/stonebridge.svg"
+        }
+      ]
+    },
+    {
+      "id": "award-12",
+      "group": "Partnership Awards",
+      "name": "Rising Company of the Year",
+      "nominees": [
+        {
+          "id": "pinecrest",
+          "name": "Pinecrest Services",
+          "logo": "/awards/nominees/pinecrest.svg"
+        },
+        {
+          "id": "northwind",
+          "name": "Northwind Facilities",
+          "logo": "/awards/nominees/northwind.svg"
+        },
+        {
+          "id": "brightpoint",
+          "name": "Brightpoint Services",
+          "logo": "/awards/nominees/brightpoint.svg"
+        },
+        {
+          "id": "blueharbor",
+          "name": "Blue Harbor Services",
+          "logo": "/awards/nominees/blueharbor.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"guess-the-winner-server","version":"1.0.0","private":true,"type":"module","engines":{"node":">=24.0.0"},"dependencies":{"express":"5.2.1","helmet":"8.3.0"}}

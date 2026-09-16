@@ -1,0 +1,15 @@
+import QRCode from 'qrcode';
+import { PNG } from 'pngjs';
+import {readFileSync} from 'node:fs';
+import zxing from '@zxing/library';
+const {MultiFormatReader,RGBLuminanceSource,BinaryBitmap,HybridBinarizer}=zxing;
+const url = process.argv[2];
+if (!url) throw new Error('Usage: node scripts/create-awards-qr.mjs <join-url>');
+await QRCode.toFile('public/awards/join-qr.png',url,{width:1024,margin:4,errorCorrectionLevel:'H',color:{dark:'#000000',light:'#ffffff'}});
+const png=PNG.sync.read(readFileSync('public/awards/join-qr.png'));
+const pixels=new Int32Array(png.width*png.height);
+for(let i=0;i<pixels.length;i++)pixels[i]=(png.data[i*4]<<16)|(png.data[i*4+1]<<8)|png.data[i*4+2];
+const reader=new MultiFormatReader();reader.setHints(new Map());
+const value=reader.decodeWithState(new BinaryBitmap(new HybridBinarizer(new RGBLuminanceSource(pixels,png.width,png.height)))).getText();
+if(value!==url)throw new Error('QR decode failed');
+console.log('QR verified: '+value);
